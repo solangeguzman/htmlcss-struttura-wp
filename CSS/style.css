@@ -1,0 +1,98 @@
+*{box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    }
+    
+    .clearfix::after{
+        content: "";
+        display:table;
+        clear:both;
+    }
+    
+    .fl{
+        float: left;
+        
+    }
+    
+    .fr{
+        float: right;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    
+    
+    header{
+        height: 100px;
+        background-color: rgb(234, 0, 255);
+        margin-bottom: 15px;
+    }
+    
+    
+    main, aside, .mid-sidebar{
+        height: 350px;
+    }
+
+    main{
+        background-color: rgb(223, 226, 43);
+        width: calc(101% - 10px);
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    
+    
+    .mid-sidebar{
+        background-color:rgb(120, 155, 221);
+        width: calc(25% - 30px);
+        margin-left: 0px;
+        margin-right: 15px;
+        
+    }
+    
+    aside.fl{
+        width: calc(50% - 10px);
+       
+         
+    }
+    
+    
+    aside {
+        background-color: rgb(120, 155, 221);
+        width: calc(25% - 35px);
+        margin-left: 15px;
+    }
+      
+    footer{
+        padding: 1%;
+        background-color: blueviolet;
+        height: 80px;
+        margin-top: 15px;
+    }
+    
+    /* layout con padding per creare il gutter*/ 
+    .product {
+        width: 50%;
+        height: 500px;
+        padding: 0 15px 0 0;
+    }
+    
+    .details {
+        width: 20%;
+        height: 500px;
+        padding: 0 15px 0 15px;
+    }
+    
+    .sidebar {
+        width: 50%;
+        height: 500px;
+        padding: 0 0 0 15px;
+    }
+    
+    .content {
+        background: #ccc;
+        height: 200px;
+    }
+    
